@@ -16,3 +16,6 @@ LVGL在VSCode上的模拟器
 	#define MONITOR_VER_RES  320
 	#define MONITOR_BUF_SIZE MONITOR_HOR_RES * 10
 
+## 无法找到<SDL2/SDL.h>
+
+下载`https://github.com/libsdl-org/SDL`的`mingw.zip`版本源代码，并将`x86_64-w64-mingw32`目录下的`include`和`lib`复制到`{mingw}/x86_64-w64-mingw32`的`include`和`lib`下。

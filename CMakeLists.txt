@@ -18,4 +18,4 @@ target_link_libraries(${PROJECT_NAME} mingw32)
 target_link_libraries(${PROJECT_NAME} SDL2main)
 target_link_libraries(${PROJECT_NAME} SDL2)
 
-file(COPY SDL2.dll DESTINATION build)
+file(COPY SDL2.dll DESTINATION ../build)

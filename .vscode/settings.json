@@ -7,7 +7,8 @@
     "*.rh": "c",
     "stdio.h": "c",
     "lvgl_app.h": "c",
-    "lvgl.h": "c"
+    "lvgl.h": "c",
+    "lv_porting.h": "c"
   },
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
